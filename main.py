@@ -1,12 +1,7 @@
 
 from telnetlib import Telnet
-
-
-
 Comment = 'SOLUTION'
 Comment = 'AUTHOR: Viashima Collins'
-
-
 
 class Student:
     # [assignment] Skeleton class. Add your code here
@@ -31,8 +26,6 @@ class Student:
 
     def get_score(self):
         print(self.name,"'s scores is :", self.score)
-
-
 
 Bob = Student(name="Bob", age=26, tracks=["FE","BE"],score=20.90)
 
